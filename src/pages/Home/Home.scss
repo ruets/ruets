@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: center;
+
+  .home-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #49505a;
+  }
+}
