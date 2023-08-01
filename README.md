@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [ruets.pro](ruets.pro)
 
-- 📝 I regularly write articles on [ruets.fr](ruets.fr)
+[//]: # (- 📝 I regularly write articles on [ruets.fr]&#40;ruets.fr&#41;)
 
 - 📫 How to reach me **sebastienruet@ruets.pro**
 
