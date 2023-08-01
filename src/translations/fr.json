@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Expérience"
+  },
+  "home": {
+    "title": "Sébastien RUET",
+    "subtitle": "Etudiant en informatique à l'IUT2 de Grenoble",
+    "button": "Voir mon CV"
+  },
+  "about": {
+    "title": "À propos",
+    "text": "Je m'appelle Sébastien RUET et je suis étudiant en deuxième année de BUT informatique à l'IUT2 de Grenoble. Lors de mon cursus, j'ai eu l'occasion de développer mes compétences et de les appliquer aussi bien dans un contexte de travail en équipe que dans un contexte de travail en solo.\n\nJe suis passionné par l'informatique et les nouvelles technologies. Je suis également un grand fan de jeux vidéo, de musique, de photographie et de vidéo.\nJe possède le permis B. Je pratique l'aikdio depuis 2014, mais je fais aussi de la course à pied depuis 2019.\nJ'ai également été bénévoles dans plusieurs festivals de spectacle vivant et j'ai pu, lors de ces occasions, développer mes compétences de travail en équipe.",
+    "mail": "sebastienruet@ruets.pro",
+    "phone": "+33 6 88 44 47 65"
+  }
+}

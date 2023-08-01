@@ -1,0 +1,20 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience"
+  },
+  "home": {
+    "title": "Sébastien RUET",
+    "subtitle": "French student in computer science at IUT2 of Grenoble",
+    "button": "See my CV"
+  },
+  "about": {
+    "title": "À propos",
+    "text": "My name is Sébastien RUET and I'm a student in the second year of a computer science degree at the IUT2 in Grenoble. During my studies, I had the opportunity to develop my skills and to apply them in a team context as well as in a solo work context.\n\nI am passionate about computers and new technologies. I am also a big fan of video games, music, photography and video.\nI have the B license. I have been practicing aikdio since 2014, but I have also been running since 2019.\nI have also volunteered at several live performance festivals and have been able to develop my teamwork skills during these opportunities.",
+    "mail": "sebastienruet@ruets.pro",
+    "phone": "+33 6 88 44 47 65"
+  }
+}
