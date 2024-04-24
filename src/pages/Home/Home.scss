@@ -1,47 +1,30 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.profile-pic {
-  position: fixed;
-  right: 0;
-  top: 15%;
-  bottom: 15%;
-  height: 70%;
-  z-index: 1;
-  padding-right: 10em;
-  will-change: filter;
-  transition: filter 300ms;
-  &:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+.home {
+  .profile-pic {
+    position: fixed;
+    right: 0;
+    top: 15%;
+    bottom: 15%;
+    height: 70%;
+    z-index: 1;
+    padding-right: 10em;
+    will-change: filter;
+    transition: filter 300ms;
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+    .react:hover {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
   }
-  .react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-}
 
-.navbar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: unset;
-  height: 8em;
-  width: 8em;
-  opacity: 1;
-  border-radius: 100%;
-  object-fit: cover;
-  transition: ease-in-out 0.3s;
-}
+  .infos {
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    text-align: center;
 
-.presentation-text {
-  position: fixed;
-  top: 30%;
-  left: 20%;
-
-  button {
-    margin-top: 1em;
+    button {
+      margin-top: 1em;
+    }
   }
 }

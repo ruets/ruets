@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 class Home extends React.Component {
   render() {
     return (
-      <>
-        <div className="presentation-text">
+      <div className="home">
+        <div className="infos">
           <h1>Sébastien RUET</h1>
           <h3>Développeur web et logiciel</h3>
           <Link to="https://cvdesignr.com/p/6358f70dbc1fd">
@@ -19,7 +19,7 @@ class Home extends React.Component {
           </Link>
         </div>
         <img className="profile-pic" src={profilePic}></img>
-      </>
+      </div>
     )
   }
 }
