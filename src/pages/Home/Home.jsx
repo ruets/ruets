@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.scss'
-import profilePic from "../../../public/profilePic.jpg";
+import profilePic from "../../../public/profilePic.png";
 import { Link } from "react-router-dom";
 
 class Home extends React.Component {
