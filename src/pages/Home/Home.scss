@@ -1,12 +1,15 @@
 .home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+
   .profile-pic {
-    position: fixed;
-    right: 0;
-    top: 15%;
-    bottom: 15%;
-    height: 70%;
+    width: 30%;
+    margin: auto;
     z-index: 1;
-    padding-right: 10em;
     will-change: filter;
     transition: filter 300ms;
     &:hover {
@@ -17,14 +20,17 @@
     }
   }
 
-  .infos {
-    position: fixed;
-    top: 30%;
-    left: 20%;
-    text-align: center;
+  .home-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    gap: 0.5em;
+  }
 
-    button {
-      margin-top: 1em;
-    }
+  .infos {
+    width: 40%;
+    text-align: center;
+    margin: auto;
   }
 }
