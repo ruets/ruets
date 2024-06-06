@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+
+  .profile-pic {
+    width: 30%;
+    margin: auto;
+    z-index: 1;
+    will-change: filter;
+    transition: filter 300ms;
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+    .react:hover {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+  }
+  
+  .presentation-text {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    
+    border-radius: 10%;
+    background: hsla(0,0%,100%,.14);
+
+    h1 { text-align: center; }
+    p { text-align: justify; }
+  }
+}
