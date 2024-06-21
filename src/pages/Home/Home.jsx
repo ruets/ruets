@@ -18,6 +18,13 @@ class Home extends React.Component {
                 </span>
               </button>
             </Link>
+            <Link to="mailto:contact@ruets.pro">
+              <button className="contact-link">
+                <span>
+                  Contact
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <img className="profile-pic" src={profilePic}></img>
