@@ -44,6 +44,15 @@ class Navbar extends React.Component {
                   </button>
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/experiences">
+                  <button>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                    <span className="material-symbols-outlined icon">work</span>
+                    <span className="link-text">Expériences</span>
+                  </button>
+                </NavLink>
+            </li>
             </ul>
           </nav>
         )}
