@@ -17,10 +17,11 @@ class TimelineElement extends React.Component {
   }
 
   render() {
-    const { title, society, date, type, description } = this.props;
+    const { title, society, date, type, link, description } = this.props;
 
     return (
       <VerticalTimelineElement
+        className={link ? "linked" : ""}
         contentStyle={{ background: "hsla(0,0%,100%,.14)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date={date}
@@ -31,6 +32,14 @@ class TimelineElement extends React.Component {
         <h4 className="vertical-timeline-element-subtitle">{society}</h4>
 
         <p>{description}</p>
+
+        {link && (
+          <a href={link} target="_blank" rel="noreferrer">
+            <div className="link-corner">
+              <GoogleFontsIcon iconName="link" />
+            </div>
+          </a>
+        )}
       </VerticalTimelineElement>
     );
   }

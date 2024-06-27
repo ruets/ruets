@@ -40,8 +40,9 @@ class Experience extends React.Component {
             society="IUT2 de Grenoble - UGA"
             date="Depuis septembre 2021"
             type={TimelineElementType.EDUCATION}
+            link="https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/but-bachelor-universitaire-de-technologie-CBB/but-informatique-grenoble-KI4UEV4Y.html"
             description={`
-              Préparation du diplôme de Bachelor Universitaire de Technologie en Informatique, spécialité Développement Logiciel
+              Préparation du diplôme de Bachelor Universitaire de Technologie en Informatique, parcours A (spécialité Développement)
             `}
           />
         </VerticalTimeline>
