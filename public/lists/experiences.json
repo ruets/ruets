@@ -1,14 +1,14 @@
 [
   {
     "title": "Alternance Ingénieur Informatique",
-    "society": "EN RECHERCHE",
+    "subtitle": "EN RECHERCHE",
     "date": "Durée de 3 ans",
     "type": "WORK",
     "description": "Je recherche une entreprise pour effectuer mon cursus d'ingénieur en alternance, à partir de septembre 2024. N'hésitez pas à me contacter si vous êtes intéressé par mon profil !"
   },
   {
     "title": "Cursus Ingénieur Informatique par l'apprentissage en 3 ans",
-    "society": "Campus CESI de Lyon",
+    "subtitle": "Campus CESI de Lyon",
     "date": "Début en Septembre 2024",
     "type": "EDUCATION",
     "link": "https://www.cesi.fr/formation/ingenieur-e-informatique-cursus-en-3-ans-par-lapprentissage-2513617/",
@@ -16,21 +16,21 @@
   },
   {
     "title": "Apprenti Développeur Logiciel",
-    "society": "Thales Group, 38430 Moirans",
+    "subtitle": "Thales Group, 38430 Moirans",
     "date": "Depuis Août 2023",
     "type": "WORK",
     "description": "Maintenance d'une application existante (C et C++), création d'applications graphiques et de modules (Python), scripts d'automatisation Excel (VBA). Apprentissage dans le cadre de la 3ème année du BUT Informatique."
   },
   {
     "title": "Stage Développeur informatique",
-    "society": "GipsaLAB, 38400 Saint-Martin-d'Hères",
+    "subtitle": "GipsaLAB, 38400 Saint-Martin-d'Hères",
     "date": "Avril 2023 - Juillet 2023",
     "type": "WORK",
     "description": "Développement d'une application permettant le suivi d'un protocol expérimental (Mathlab, Psychtoolbox). Stage dans le cadre de la 2ème année du BUT Informatique"
   },
   {
     "title": "BUT Informatique",
-    "society": "IUT2 de Grenoble - UGA",
+    "subtitle": "IUT2 de Grenoble - UGA",
     "date": "Depuis septembre 2021",
     "type": "EDUCATION",
     "link": "https://formations.univ-grenoble-alpes.fr/fr/catalogue-2021/but-bachelor-universitaire-de-technologie-CBB/but-informatique-grenoble-KI4UEV4Y.html",
