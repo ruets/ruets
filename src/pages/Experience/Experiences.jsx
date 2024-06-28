@@ -5,20 +5,20 @@ import "react-vertical-timeline-component/style.min.css";
 
 import TimeLineElement from "../../components/TimelineElement/TimelineElement.jsx";
 import { TimelineElementType } from "../../components/TimelineElement/TimelineElement.jsx";
-import experience from "../../../public/lists/experiences.json";
+import experiences from "../../../public/lists/experiences.json";
 import "./Experiences.scss";
 
-class Experience extends React.Component {
+class Experiences extends React.Component {
   render() {
     return (
-      <div className="experience">
+      <div className="experiences">
         <VerticalTimeline>
-          {experience.map((element, index) => {
+          {experiences.map((element, index) => {
             return (
               <TimeLineElement
                 key={index}
                 title={element.title}
-                society={element.society}
+                subtitle={element.subtitle}
                 date={element.date}
                 type={TimelineElementType[element.type]}
                 description={element.description}
@@ -32,4 +32,4 @@ class Experience extends React.Component {
   }
 }
 
-export default Experience;
+export default Experiences;

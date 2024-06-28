@@ -8,6 +8,7 @@ import "./TimelineElement.scss";
 const TimelineElementType = {
   WORK: "work",
   EDUCATION: "school",
+  PERSONAL: "person",
 };
 
 class TimelineElement extends React.Component {
@@ -17,7 +18,7 @@ class TimelineElement extends React.Component {
   }
 
   render() {
-    const { title, society, date, type, link, description } = this.props;
+    const { title, subtitle, date, type, link, description } = this.props;
 
     return (
       <VerticalTimelineElement
@@ -29,7 +30,7 @@ class TimelineElement extends React.Component {
         icon={<GoogleFontsIcon iconName={type} />}
       >
         <h3 className="vertical-timeline-element-title">{title}</h3>
-        <h4 className="vertical-timeline-element-subtitle">{society}</h4>
+        <h4 className="vertical-timeline-element-subtitle">{subtitle}</h4>
 
         <p>{description}</p>
 
