@@ -1,0 +1,95 @@
+[
+  {
+    "title": "ruets",
+    "subtitle": "ReactJS, SCSS",
+    "date": "",
+    "type": "PERSONAL",
+    "link": "https://github.com/ruets/ruets",
+    "description": "Portfolio personnel réalisé en ReactJS"
+  },
+  {
+    "title": "Tour of Heroes",
+    "subtitle": "Angular, Firebase",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/toh",
+    "description": "Site web permettant de créer un catalogue de personnages, réalisé en Angular et avec une base de données Firebase dans le cadre d'un projet au cours du cinquième semestre de BUT Informatique"
+  },
+  {
+    "title": "ShoppingList",
+    "subtitle": "Dart, Flutter, Express, MongoDB",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/ShoppingList",
+    "description": "Application en Flutter destinée à servir de liste de courses, consolidée plus tard avec un backend en Express et une base de données MongoDB dans le cadre d'un projet au cours du cinquième semestre de BUT Informatique"
+  },
+  {
+    "title": "Gamejam",
+    "subtitle": "Python, Pygame",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/GameJam2023",
+    "description": "Jeu programmé en Python avec la librairie Pygame dans le cadre de la GameJam au cours de la troisième année de BUT Informatique"
+  },
+  {
+    "title": "Park",
+    "subtitle": "Matlab, Psychtoolbox",
+    "date": "",
+    "type": "WORK",
+    "description": "Programme permettant la réalisation d'un protocol expérimental de recherche sur la perception intrasaccadique. Réalisé dans le cadre d'un stage de recherche au sein du laboratoire GipsaLAB de l'Université Grenoble Alpes"
+  },
+  {
+    "title": "Mon Carnet de Stage",
+    "subtitle": "Java, PHP",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/MonCarnetDeStage",
+    "description": "Application Android destinée à la recherche d'un stage, réalisée en Java dans le cadre de la SAE du quatrième semestre de BUT Informatique"
+  },
+  {
+    "title": "TP API - R4.A.10",
+    "subtitle": "HTML5, CSS3, JavaScript",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/R4.A.10_TP-API",
+    "description": "Site web permettant de gérer son portefeuille d'actions basé sur une API de données boursières. Réalisé dans le cadre de la ressource R4.A.10 duau cours du troisième semestre de BUT Informatique"
+  },
+  {
+    "title": "HeavenHaven",
+    "subtitle": "Frontend : React (Javascript, SCSS), Backend : Express (Javascript), Base de données : MongoDB",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/HeavenHaven",
+    "description": "Site web de gestion d'enchères sur des îles privées, comprenant un frontend en React et un backend réalisé avec NodeJS. Réalisé dans le cadre de la SAE du troisième semestre de BUT Informatique"
+  },
+  {
+    "title": "Gestival",
+    "subtitle": "Java, JavaFX",
+    "date": "",
+    "type": "EDUCATION",
+    "description": "Application de gestion de festivals, réalisée en Java, dans le cadre de la SAE du deuxième semestre de BUT Informatique"
+  },
+  {
+    "title": "Classification automatique de documents",
+    "subtitle": "Java",
+    "date": "",
+    "type": "EDUCATION",
+    "link": "https://github.com/ruets/ClassificationAutomatique",
+    "description": "Projet de programme de classification de dépêches en Java, effectué durant la SAE du premier semestre de BUT Informatique"
+  },
+  {
+    "title": "SAE Web OMS",
+    "subtitle": "HTML5, CSS3, JavaScript",
+    "date": "",
+    "type": "EDUCATION",
+    "description": "Développement d'un site web de vulgarisation de l'activité de l'entreprise Orange Business Services, dans le cadre d'une SAE durant la première année de BUT Informatique"
+  },
+  {
+    "title": "IUTConnect",
+    "subtitle": "C",
+    "date": "",
+    "type": "PERSONAL",
+    "link": "https://github.com/ruets/IUTConnect",
+    "description": "Un script pour se connecter aux stations Linux de l'IUT2 de Grenoble"
+  }
+]
