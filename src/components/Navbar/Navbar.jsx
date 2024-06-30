@@ -58,6 +58,14 @@ class Navbar extends React.Component {
                   </button>
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/projects">
+                  <button>
+                    <GoogleFontsIcon iconName="code" />
+                    <span className="link-text">Projets</span>
+                  </button>
+                </NavLink>
+              </li>
             </ul>
           </nav>
         )}
