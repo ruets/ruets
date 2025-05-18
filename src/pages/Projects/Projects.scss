@@ -1,0 +1,31 @@
+#projects {
+  padding: 0 5em;
+  padding-top: 5em;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+
+  .projects-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .projects-title {
+    text-align: left;
+  }
+
+  .project-wrapper {
+    padding-top: 5em;
+    display: flex;
+    gap: 2em;
+    will-change: transform;
+    width: max-content;
+    flex-shrink: 0;
+  }
+
+  .scroll-filler {
+    width: 5em;
+    flex-shrink: 0;
+  }
+}

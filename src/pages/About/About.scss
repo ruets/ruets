@@ -1,35 +1,40 @@
-.about {
+#about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: baseline;
   gap: 1em;
+  min-height: 100vh;
+  padding: 0 5em;
 
-  .profile-pic {
-    width: 30%;
-    margin: auto;
-    z-index: 1;
-    will-change: filter;
-    transition: filter 300ms;
-    &:hover {
-      filter: drop-shadow(0 0 2em #646cffaa);
+  background: black;
+  text-align: justify;
+
+  .about-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em 10%;
+
+    .about-title {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: white;
     }
-    .react:hover {
-      filter: drop-shadow(0 0 2em #61dafbaa);
+
+    .about-subtitle {
+      font-size: 1em;
+      font-weight: 500;
+      color: white;
     }
   }
-  
-  .presentation-text {
-    width: 40%;
-    text-align: center;
-    margin: auto;
-    padding: 1em;
-    
-    border-radius: 10%;
-    background: hsla(0,0%,100%,.14);
 
-    h1 { text-align: center; }
-    p { text-align: justify; }
+  @media (max-width: 768px) {
+    padding: 0 1.5em;
+    gap: 1em;
+    .about-quote {
+      padding: 2em 5%;
+    }
   }
 }

@@ -2,12 +2,17 @@
 <html lang="fr">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-62SS56TX0K"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-62SS56TX0K"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-62SS56TX0K');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-62SS56TX0K");
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="/favicon.ico" />
@@ -17,9 +22,11 @@
   <body>
     <div id="particles-bg"></div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>particlesJS.load('particles-bg', '/particlesjs-config.json')</script>
+    <script>
+      particlesJS.load("particles-bg", "/particlesjs-config.json");
+    </script>
 
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
