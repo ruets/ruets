@@ -11,10 +11,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 function About() {
   const sectionRef = useRef<HTMLElement | null>(null);
-  // Ici on pr�cise que quotesRef est un tableau d'�l�ments HTML div
   const quotesRef = useRef<HTMLDivElement[]>([]);
 
-  // Fonction pour ajouter une r�f�rence, en typant l'�l�ment en param�tre
   const addToRefs = (el: HTMLDivElement | null) => {
     if (el && !quotesRef.current.includes(el)) {
       quotesRef.current.push(el);
