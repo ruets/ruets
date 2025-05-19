@@ -64,6 +64,12 @@ function Navbar() {
               <span>Projets</span>
             </a>
           </li>
+          <li onClick={(e) => e.stopPropagation()}>
+            <a href="#skills">
+              <Icon name="school" />
+              <span>Compétences</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </div>

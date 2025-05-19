@@ -49,6 +49,13 @@
         "link": "https://www.cesi.fr/formation/ingenieur-e-informatique-cursus-en-3-ans-par-lapprentissage-2513617/"
       },
       {
+        "title": "Développeur Freelance",
+        "subtitle": "ruets, 38000 Grenoble",
+        "date": "Depuis septembre 2024",
+        "type": "WORK",
+        "description": "Développement de sites web et d'applications pour des clients variés."
+      },
+      {
         "title": "Apprenti Développeur Logiciel",
         "subtitle": "Thales Group, 38430 Moirans",
         "date": "Août 2023 - Août 2024",
@@ -153,6 +160,64 @@
         "type": "PERSONAL",
         "repo": "https://github.com/ruets/IUTConnect",
         "description": "Un script pour se connecter aux stations Linux de l'IUT2 de Grenoble"
+      }
+    ]
+  },
+  "skills": {
+    "groups": [
+      {
+        "name": "Développement Frontend",
+        "items": [
+          { "id": "html5", "label": "HTML5" },
+          { "id": "css3", "label": "CSS3" },
+          { "id": "sass", "label": "Sass" },
+          { "id": "javascript", "label": "JavaScript" },
+          { "id": "react", "label": "React" },
+          { "id": "angular", "label": "Angular" }
+        ]
+      },
+      {
+        "name": "Développement Mobile",
+        "items": [
+          { "id": "dart", "label": "Dart" },
+          { "id": "flutter", "label": "Flutter" }
+        ]
+      },
+      {
+        "name": "Développement Desktop",
+        "items": [
+          { "id": "java", "label": "Java" },
+          { "id": "cplusplus", "label": "C++" },
+          { "id": "qt", "label": "Qt" }
+        ]
+      },
+      {
+        "name": "Développement Backend",
+        "items": [
+          { "id": "nodejs", "label": "Node.js" },
+          { "id": "express", "label": "Express" }
+        ]
+      },
+      {
+        "name": "Bases de données",
+        "items": [
+          { "id": "postgresql", "label": "PostgreSQL" },
+          { "id": "mongodb", "label": "MongoDB" }
+        ]
+      },
+      {
+        "name": "Scripting",
+        "items": [
+          { "id": "python", "label": "Python" },
+          { "id": "c", "label": "C" }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "items": [
+          { "id": "git", "label": "Git" },
+          { "id": "powershell", "label": "PowerShell" }
+        ]
       }
     ]
   }
