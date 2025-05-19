@@ -5,20 +5,11 @@ import Icon from "../Icon/Icon";
 import "react-vertical-timeline-component/style.min.css";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
-const TimelineElementType = {
-  WORK: "work",
-  EDUCATION: "school",
-  PERSONAL: "person",
-} as const;
-
-type TimelineElementType =
-  (typeof TimelineElementType)[keyof typeof TimelineElementType];
-
 interface TimelineElementProps {
   title: string;
   subtitle: string;
   date: string;
-  elementType: TimelineElementType;
+  elementType: string;
   link?: string;
   description: string;
 }
@@ -61,4 +52,3 @@ function TimelineElement({
 }
 
 export default TimelineElement;
-export { TimelineElementType };

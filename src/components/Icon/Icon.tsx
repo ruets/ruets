@@ -22,7 +22,7 @@ const iconMap = {
   mail: Mail,
   linkedin: Linkedin,
   github: Github,
-  personnal: User,
+  personal: User,
   school: GraduationCap,
   externallink: ExternalLink,
   helpcircle: HelpCircle,
@@ -41,7 +41,7 @@ function Icon({ name, size = 24, color = "currentColor" }: IconProps) {
   const IconComponent = iconMap[lowerName as IconKey];
 
   if (!IconComponent) {
-    console.warn(`Icon "${name}" not found, using fallback icon.`);
+    console.warn(`Icon "${lowerName}" not found, using fallback icon.`);
     return <HelpCircle size={size} color={color} />;
   }
 
