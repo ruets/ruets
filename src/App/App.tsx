@@ -5,6 +5,7 @@ import Home from "../pages/Home/Home.jsx";
 import About from "../pages/About/About.jsx";
 import Experiences from "../pages/Experience/Experiences.jsx";
 import Projects from "../pages/Projects/Projects.jsx";
+import Skills from "../pages/Skills/Skills.jsx";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <About />
       <Experiences />
       <Projects />
-      <div style={{ height: "100vh" }} />
+      <Skills />
     </>
   );
 }
